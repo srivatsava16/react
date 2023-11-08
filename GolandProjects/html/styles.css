@@ -1,0 +1,16 @@
+p {
+    color: antiquewhite;
+    font-family: Arial,sans-serif;
+    border: 2px solid powderblue;
+}
+
+body {
+    background-color: burlywood;
+}
+
+h1{
+    color: aqua;
+    border-color: tomato;
+    text-align: center;
+}
+

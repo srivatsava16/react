@@ -1,0 +1,146 @@
+[
+  {
+    "Hit": "Id empty",
+    "Input": {
+      "Id": "",
+      "FirstName": "avg",
+      "LastName": "sri",
+      "FullName": "vat",
+      "Phone": "77676787",
+      "Email": "vat69",
+      "City": "hyd"
+    },
+    "Manual": {
+      "Status": "Error",
+      "Code": "400",
+      "Error": "Id cannot be empty",
+      "Data": null
+    }
+  },
+  {
+    "Hit": "Firstname empty",
+    "Input": {
+      "Id": "11",
+      "FirstName": "",
+      "LastName": "sri",
+      "FullName": "vat",
+      "Phone": "77676787",
+      "Email": "vat69",
+      "City": "hyd"
+    },
+    "Manual": {
+      "Status": "Error",
+      "Code": "400",
+      "Error": " FirstName cannot be empty",
+      "Data": null
+    }
+  },
+  {
+    "Hit": "Lastname empty",
+    "Input": {
+      "Id": "11",
+      "FirstName": "avg",
+      "LastName": "",
+      "FullName": "vat",
+      "Phone": "77676787",
+      "Email": "vat69",
+      "City": "hyd"
+    },
+    "Manual": {
+      "Status": "Error",
+      "Code": "400",
+      "Error": " LastName cannot be empty",
+      "Data": null
+    }
+  },
+  {
+    "Hit": "Full name empty",
+    "Input": {
+      "Id": "11",
+      "FirstName": "avg",
+      "LastName": "sri",
+      "FullName": "",
+      "Phone": "77676787",
+      "Email": "vat69",
+      "City": "hyd"
+    },
+    "Manual": {
+      "Status": "Error",
+      "Code": "400",
+      "Error": " Full name cannot be empty",
+      "Data": null
+    }
+  },
+  {
+    "Hit": "Phone empty",
+    "Input": {
+      "Id": "11",
+      "FirstName": "avg",
+      "LastName": "sri",
+      "FullName": "vat",
+      "Phone": "",
+      "Email": "vat69",
+      "City": "hyd"
+    },
+    "Manual": {
+      "Status": "Error",
+      "Code": "400",
+      "Error": " Phone cannot be empty",
+      "Data": null
+    }
+  },
+  {
+    "Hit": "Email empty",
+    "Input": {
+      "Id": "11",
+      "FirstName": "avg",
+      "LastName": "sri",
+      "FullName": "vat",
+      "Phone": "77676787",
+      "Email": "",
+      "City": "hyd"
+    },
+    "Manual": {
+      "Status": "Error",
+      "Code": "400",
+      "Error": " Email cannot be empty",
+      "Data": null
+    }
+  },
+  {
+    "Hit": "City empty",
+    "Input": {
+      "Id": "11",
+      "FirstName": "avg",
+      "LastName": "sri",
+      "FullName": "vat",
+      "Phone": "77676787",
+      "Email": "vat69",
+      "City": ""
+    },
+    "Manual": {
+      "Status": "Error",
+      "Code": "400",
+      "Error": " City cannot be empty",
+      "Data": null
+    }
+  },
+  {
+    "Hit": "Success hit",
+    "Input": {
+      "Id": "11",
+      "FirstName": "avg",
+      "LastName": "sri",
+      "FullName": "vat",
+      "Phone": "77676787",
+      "Email": "vat69",
+      "City": "hyd"
+    },
+    "Manual": {
+      "Status": "Success",
+      "Code": "200",
+      "Error": "",
+      "Data": "success"
+    }
+  }
+]

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            text-align: center;
+        }
+        .buttons-align{
+            width: 50px;
+            height: 20px;
+            margin: 5px;
+
+        }
+        .rectangle {
+            width: 200px;
+            height: 100px;
+            border: 2px solid #000;
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+        }
+
+        .custom-button {
+            padding: 10px;
+            border: 2px solid #000;
+            color: blue;
+            position: relative;
+            top: 30px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="rectangle">
+        <label for="s1"></label><input type="email" id="s1" style="margin-top: 15px" ><br>
+        <label for="s2"></label><input type="email" id="s2" style="margin-top: 25px" ><br>
+
+
+    </div>
+    <div class="buttons-align">
+    <button class="custom-button" onclick="send()">------></button>
+    <button class="custom-button" onclick="recieve()"><------</button>
+    </div>
+
+    <div class="rectangle">
+        <label for="s3"></label><input type="email" id="s3" style="margin-top: 15px" ><br>
+        <label for="s4"></label><input type="email" id="s4" style="margin-top: 25px" ><br>
+
+    </div>
+</div>
+</body>
+
+<script>
+
+    function send(){
+
+        document.getElementById('s3').value= document.getElementById('s1').value
+        document.getElementById('s4').value= document.getElementById('s2').value
+        document.getElementById('s1').value=""
+        document.getElementById('s2').value=""
+
+    }
+
+    function recieve(){
+
+        document.getElementById('s1').value= document.getElementById('s3').value
+        document.getElementById('s2').value= document.getElementById('s4').value
+        document.getElementById('s3').value=""
+        document.getElementById('s4').value=""
+
+    }
+
+</script>
+
+</html>

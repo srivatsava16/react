@@ -1,0 +1,202 @@
+[
+  {
+    "HitName": "Id empty",
+    "HitMatch": true,
+    "Input": {
+      "Id": "",
+      "FirstName": "avg",
+      "LastName": "sri",
+      "FullName": "vat",
+      "Phone": "77676787",
+      "Email": "vat69",
+      "City": "hyd"
+    },
+    "ManualResponse": {
+      "Status": "Error",
+      "Code": "400",
+      "Error": "Id cannot be empty",
+      "Data": null
+    },
+    "ExternalResponse": {
+      "Status": "Error",
+      "Code": "400",
+      "Error": "Id cannot be empty",
+      "Data": null
+    }
+  },
+  {
+    "HitName": "Firstname empty",
+    "HitMatch": true,
+    "Input": {
+      "Id": "11",
+      "FirstName": "",
+      "LastName": "sri",
+      "FullName": "vat",
+      "Phone": "77676787",
+      "Email": "vat69",
+      "City": "hyd"
+    },
+    "ManualResponse": {
+      "Status": "Error",
+      "Code": "400",
+      "Error": " FirstName cannot be empty",
+      "Data": null
+    },
+    "ExternalResponse": {
+      "Status": "Error",
+      "Code": "400",
+      "Error": " FirstName cannot be empty",
+      "Data": null
+    }
+  },
+  {
+    "HitName": "Lastname empty",
+    "HitMatch": true,
+    "Input": {
+      "Id": "11",
+      "FirstName": "avg",
+      "LastName": "",
+      "FullName": "vat",
+      "Phone": "77676787",
+      "Email": "vat69",
+      "City": "hyd"
+    },
+    "ManualResponse": {
+      "Status": "Error",
+      "Code": "400",
+      "Error": " LastName cannot be empty",
+      "Data": null
+    },
+    "ExternalResponse": {
+      "Status": "Error",
+      "Code": "400",
+      "Error": " LastName cannot be empty",
+      "Data": null
+    }
+  },
+  {
+    "HitName": "Full name empty",
+    "HitMatch": true,
+    "Input": {
+      "Id": "11",
+      "FirstName": "avg",
+      "LastName": "sri",
+      "FullName": "",
+      "Phone": "77676787",
+      "Email": "vat69",
+      "City": "hyd"
+    },
+    "ManualResponse": {
+      "Status": "Error",
+      "Code": "400",
+      "Error": " Full name cannot be empty",
+      "Data": null
+    },
+    "ExternalResponse": {
+      "Status": "Error",
+      "Code": "400",
+      "Error": " Full name cannot be empty",
+      "Data": null
+    }
+  },
+  {
+    "HitName": "Phone empty",
+    "HitMatch": true,
+    "Input": {
+      "Id": "11",
+      "FirstName": "avg",
+      "LastName": "sri",
+      "FullName": "vat",
+      "Phone": "",
+      "Email": "vat69",
+      "City": "hyd"
+    },
+    "ManualResponse": {
+      "Status": "Error",
+      "Code": "400",
+      "Error": " Phone cannot be empty",
+      "Data": null
+    },
+    "ExternalResponse": {
+      "Status": "Error",
+      "Code": "400",
+      "Error": " Phone cannot be empty",
+      "Data": null
+    }
+  },
+  {
+    "HitName": "Email empty",
+    "HitMatch": true,
+    "Input": {
+      "Id": "11",
+      "FirstName": "avg",
+      "LastName": "sri",
+      "FullName": "vat",
+      "Phone": "77676787",
+      "Email": "",
+      "City": "hyd"
+    },
+    "ManualResponse": {
+      "Status": "Error",
+      "Code": "400",
+      "Error": " Email cannot be empty",
+      "Data": null
+    },
+    "ExternalResponse": {
+      "Status": "Error",
+      "Code": "400",
+      "Error": " Email cannot be empty",
+      "Data": null
+    }
+  },
+  {
+    "HitName": "City empty",
+    "HitMatch": true,
+    "Input": {
+      "Id": "11",
+      "FirstName": "avg",
+      "LastName": "sri",
+      "FullName": "vat",
+      "Phone": "77676787",
+      "Email": "vat69",
+      "City": ""
+    },
+    "ManualResponse": {
+      "Status": "Error",
+      "Code": "400",
+      "Error": " City cannot be empty",
+      "Data": null
+    },
+    "ExternalResponse": {
+      "Status": "Error",
+      "Code": "400",
+      "Error": " City cannot be empty",
+      "Data": null
+    }
+  },
+  {
+    "HitName": "Success hit",
+    "HitMatch": true,
+    "Input": {
+      "Id": "11",
+      "FirstName": "avg",
+      "LastName": "sri",
+      "FullName": "vat",
+      "Phone": "77676787",
+      "Email": "vat69",
+      "City": "hyd"
+    },
+    "ManualResponse": {
+      "Status": "Success",
+      "Code": "200",
+      "Error": "",
+      "Data": "success"
+    },
+    "ExternalResponse": {
+      "Status": "Success",
+      "Code": "200",
+      "Error": "",
+      "Data": "success"
+    }
+  }
+]

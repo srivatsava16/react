@@ -1,0 +1,146 @@
+[
+  {
+    "Hit": "Id empty",
+    "Input": {
+      "Id": "",
+      "Firstname": "king",
+      "Lastname": "king",
+      "Username": "king",
+      "Password": "king",
+      "Address": "king",
+      "Place": "king"
+    },
+    "Manual": {
+      "Status": "Error",
+      "Code": 400,
+      "Error": "Id cannot be empty",
+      "Data": null
+    }
+  },
+  {
+    "Hit": "Firstname empty",
+    "Input": {
+      "Id": "king",
+      "Firstname": "",
+      "Lastname": "king",
+      "Username": "king",
+      "Password": "king",
+      "Address": "king",
+      "Place": "king"
+    },
+    "Manual": {
+      "Status": "Error",
+      "Code": 400,
+      "Error": "Firstname cannot be empty",
+      "Data": null
+    }
+  },
+  {
+    "Hit": "Lastname empty",
+    "Input": {
+      "Id": "king",
+      "Firstname": "king",
+      "Lastname": "",
+      "Username": "king",
+      "Password": "king",
+      "Address": "king",
+      "Place": "king"
+    },
+    "Manual": {
+      "Status": "Error",
+      "Code": 400,
+      "Error": "Lastname cannot be empty",
+      "Data": null
+    }
+  },
+  {
+    "Hit": "username empty",
+    "Input": {
+      "Id": "king",
+      "Firstname": "king",
+      "Lastname": "king",
+      "Username": "",
+      "Password": "king",
+      "Address": "king",
+      "Place": "king"
+    },
+    "Manual": {
+      "Status": "Error",
+      "Code": 400,
+      "Error": "username cannot be empty",
+      "Data": null
+    }
+  },
+  {
+    "Hit": "password empty",
+    "Input": {
+      "Id": "king",
+      "Firstname": "king",
+      "Lastname": "king",
+      "Username": "king",
+      "Password": "",
+      "Address": "king",
+      "Place": "king"
+    },
+    "Manual": {
+      "Status": "Error",
+      "Code": 400,
+      "Error": "password cannot be empty",
+      "Data": null
+    }
+  },
+  {
+    "Hit": "address empty",
+    "Input": {
+      "Id": "king",
+      "Firstname": "king",
+      "Lastname": "king",
+      "Username": "king",
+      "Password": "king",
+      "Address": "",
+      "Place": "king"
+    },
+    "Manual": {
+      "Status": "Error",
+      "Code": 400,
+      "Error": "address cannot be empty",
+      "Data": null
+    }
+  },
+  {
+    "Hit": "place empty",
+    "Input": {
+      "Id": "king",
+      "Firstname": "king",
+      "Lastname": "king",
+      "Username": "king",
+      "Password": "king",
+      "Address": "king",
+      "Place": ""
+    },
+    "Manual": {
+      "Status": "Error",
+      "Code": 400,
+      "Error": "place cannot be empty",
+      "Data": null
+    }
+  },
+  {
+    "Hit": "Success hit",
+    "Input": {
+      "Id": "king",
+      "Firstname": "king",
+      "Lastname": "king",
+      "Username": "king",
+      "Password": "king",
+      "Address": "king",
+      "Place": "KING"
+    },
+    "Manual": {
+      "Status": "Success",
+      "Code": 200,
+      "Error": "",
+      "Data": "success"
+    }
+  }
+]
